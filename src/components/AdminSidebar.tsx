@@ -53,19 +53,19 @@ const Charts = () => {
         <ul>
 
           <li style={{backgroundColor: location.pathname.includes('/admin/chart/bar') ? "rgba(0, 115, 255, 0.1)" : "white"}}>
-            <Link to={'/admin/dashboard/bar'} style={{color: location.pathname.includes('/admin/dashboard/bar') ? "rgba(0, 115, 255)" : "black"}}>
+            <Link to={'/admin/chart/bar'} style={{color: location.pathname.includes('/admin/chart/bar') ? "rgba(0, 115, 255)" : "black"}}>
               <FaChartBar />
               Bar
             </Link>
           </li>
           <li style={{backgroundColor: location.pathname.includes('/admin/chart/pie') ? "rgba(0, 115, 255, 0.1)" : "white"}}>
-            <Link to={'/admin/dasboard/pie'} style={{color: location.pathname.includes('/admin/dasboard/pie') ? "rgba(0, 115, 255)" : "black"}}>
+            <Link to={'/admin/chart/pie'} style={{color: location.pathname.includes('/admin/chart/pie') ? "rgba(0, 115, 255)" : "black"}}>
               <FaChartPie />
               Pie
             </Link>
           </li>
           <li style={{backgroundColor: location.pathname.includes('/admin/chart/line') ? "rgba(0, 115, 255, 0.1)" : "white"}}>
-            <Link to={'/admin/dasboard/line'} style={{color: location.pathname.includes('/admin/dasboard/line') ? "rgba(0, 115, 255)" : "black"}}>
+            <Link to={'/admin/chart/line'} style={{color: location.pathname.includes('/admin/chart/line') ? "rgba(0, 115, 255)" : "black"}}>
             <FaChartLine />
               Line
             </Link>
