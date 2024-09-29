@@ -9,7 +9,7 @@ function TableHOC<T extends Object>(columns: Column<T>[], data: T[], containerCl
                 pageSize: 6,
             }
         };
-        const {getTableProps, getTableBodyProps, headerGroups, page, prepareRow, nextPage, previousPage, canNextPage, gotoPage, canPreviousPage, pageCount, state:{pageIndex} } = useTable(options, useSortBy, usePagination);
+        const {getTableProps, getTableBodyProps, headerGroups, page, prepareRow, nextPage, previousPage, canNextPage, canPreviousPage, pageCount, state:{pageIndex} } = useTable(options, useSortBy, usePagination);
 
         return <div className={containerClassname}>
             <h2 className="heading">{heading}</h2>
